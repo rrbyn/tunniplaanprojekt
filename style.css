@@ -5,55 +5,57 @@ flex: 1;
 flex-direction: column;
 padding: auto;
 }
-.firstlesson{
-   display:flex;
-   flex: 1;
-   border-style: solid;
-border-color: slategray;
-padding: 2rem;
+.tund{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(190, 228, 255, 0.2);
+    margin: 1rem;
 }
-.secondlesson{
-    display:flex;
-    flex: 1;
-    border-style: solid;
- border-color: slategray;
- padding: 2rem;
- }
- .lunch{
-     display: flex;
-     flex: 1;
-     border-style: solid;
-     border-color: slategray;
-     padding: 1rem;
- }
- .thirdlesson{
-    display:flex;
-    flex: 1;
-    border-style: solid;
- border-color: slategray;
- padding: 2rem;
- }
- .fourthlesson{
-    display:flex;
-    flex: 1;
-    border-style: solid;
- border-color: slategray;
- padding: 2rem;
- }
- .fifthlesson{
-    display:flex;
-    flex: 1;
-    border-style: solid;
- border-color: slategray;
- padding: 2rem;
- }
- .sixthlesson{
-    display:flex;
-    flex: 1;
-    border-style: solid;
- border-color: slategray;
- padding: 2rem;
- }
+.leftside{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+.leftside span{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+}
+.rightside{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.rightside span{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+}
+.side{
+    width: 33%;
+}
+.pealkiri{
+    font-size: 23px;
+    line-height: 27px;
+}
+.tunninr{
+    font-size: 14px;
+    line-height: 16px;
+}
+.aeg{
+    font-size: 12px;
+    line-height: 14px;
+}
+.ruum{
+    font-size: 14px;
+    line-height: 16px;
+}
+.op{
+    font-size: 14px;
+    line-height: 16px;
+}
+
 .days{
     display: flex;
     flex: 1;
@@ -128,8 +130,6 @@ border-radius:10px;
     text-align-last: center;
     font-family: 'Roboto', sans-serif;
     font:bold;
-}
-.dropdown{
     display: flex;
     flex: 1;
    justify-content: center;
@@ -157,4 +157,11 @@ justify-content: center;
     width: 153px;
     height: 44px;
     border-radius: 10px;
+}
+.lunch{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(194, 194, 194, 0.35);
+    margin: 1rem;
+    align-items: center;
 }
