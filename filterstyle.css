@@ -1,0 +1,64 @@
+.tunniplaan{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    background: rgba(190, 228, 255, 0.2);
+    font-family: 'Roboto', sans-serif;
+}
+.lunch{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(194, 194, 194, 0.35);
+    margin: 1rem;
+    align-items: center;
+}
+.tund{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(190, 228, 255, 0.2);
+    margin: 1rem;
+}
+.leftside{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+.leftside span{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+}
+.rightside{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.rightside span{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+}
+.side{
+    width: 33%;
+}
+.pealkiri{
+    font-size: 23px;
+    line-height: 27px;
+}
+.tunninr{
+    font-size: 14px;
+    line-height: 16px;
+}
+.aeg{
+    font-size: 12px;
+    line-height: 14px;
+}
+.ruum{
+    font-size: 14px;
+    line-height: 16px;
+}
+.op{
+    font-size: 14px;
+    line-height: 16px;
+}

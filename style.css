@@ -126,12 +126,9 @@ border-radius:10px;
 }
 .filter{
     display: flex;
-    flex: 1;
+   flex: 1;
     text-align-last: center;
     font-family: 'Roboto', sans-serif;
-    font:bold;
-    display: flex;
-    flex: 1;
    justify-content: center;
     background-color: orange;
     min-width: 160px;
