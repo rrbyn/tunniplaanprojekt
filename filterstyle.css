@@ -62,3 +62,51 @@
     font-size: 14px;
     line-height: 16px;
 }
+.freeroom{
+    display: flex;
+    flex: 1;
+    background:orange;
+    margin: 4rem 6rem;
+    font-family: 'Roboto', sans-serif;
+align-items: center;
+justify-content: center;
+    width: 153px;
+    height: 44px;
+    border-radius: 10px;
+}
+.group {
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    margin: 10px 0;
+    background: rgba(190, 228, 255, 0.2);
+    font-family: 'Roboto', sans-serif;
+}
+.room {
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    margin: 10px 0;
+    background: rgba(190, 228, 255, 0.2);
+    font-family: 'Roboto', sans-serif;
+}
+.teacher{
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    margin: 10px 0;
+    background: rgba(190, 228, 255, 0.2);
+    font-family: 'Roboto', sans-serif;
+}
+.filter{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    margin: 0 6rem;
+    width:161px;
+    height: 54px;
+    background: #BEE4FF;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+}
