@@ -1,78 +1,87 @@
-.tunniplaan{
+.tunniplaan {
     display: flex;
     flex: 1;
     justify-content: center;
+    align-content: center;
+    justify-self: center;
+    align-self: center;
     background: rgba(190, 228, 255, 0.2);
     font-family: 'Roboto', sans-serif;
+    height: 2em;
+    margin: auto;
 }
-.lunch{
+.lunch {
     display: flex;
     justify-content: space-between;
     background-color: rgba(194, 194, 194, 0.35);
     margin: 1rem;
     align-items: center;
 }
-.tund{
+.tund {
     display: flex;
     justify-content: space-between;
     background-color: rgba(190, 228, 255, 0.2);
     margin: 1rem;
+    padding: 1%;
+    font-family: 'Roboto', sans-serif;
 }
-.leftside{
+.leftside {
     display: flex;
     flex-direction: column;
     width: 33%;
 }
-.leftside span{
-    font-family: Roboto;
+.leftside span {
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
 }
-.rightside{
+.rightside {
     display: flex;
     flex-direction: column;
     text-align: center;
 }
-.rightside span{
-    font-family: Roboto;
+.rightside span {
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     text-align: center;
 }
-.side{
+.side {
     width: 33%;
 }
-.pealkiri{
+.pealkiri {
     font-size: 23px;
     line-height: 27px;
 }
-.tunninr{
+.tunninr {
     font-size: 14px;
     line-height: 16px;
 }
-.aeg{
+.aeg {
     font-size: 12px;
     line-height: 14px;
 }
-.ruum{
+.ruum {
     font-size: 14px;
     line-height: 16px;
 }
-.op{
+.op {
     font-size: 14px;
     line-height: 16px;
 }
-.freeroom{
+.freeroom {
     display: flex;
     flex: 1;
+    flex-direction: column;
     background: #FFBE5C;
-    margin: 4rem 6rem;
     font-family: 'Roboto', sans-serif;
     align-items: center;
     justify-content: center;
     width: 153px;
     height: 44px;
     border-radius: 10px;
+    border-width: 0;
+    width: 90%;
 }
 .group {
     display: flex;
@@ -92,7 +101,7 @@
     background: rgba(190, 228, 255, 0.2);
     font-family: 'Roboto', sans-serif;
 }
-.teacher{
+.teacher {
     display: flex;
     flex: 1;
     justify-content: flex-start;
@@ -101,7 +110,7 @@
     background: rgba(190, 228, 255, 0.2);
     font-family: 'Roboto', sans-serif;
 }
-.filter{
+.filter {
     display: flex;
     flex: 1;
     justify-content: center;
@@ -111,16 +120,26 @@
     background: #BEE4FF;
     font-family: 'Roboto', sans-serif;
     border-radius: 10px;
+    margin: auto;
 }
-.arrow{
-        display: flex;
-       flex: 1;
-        font-family: 'Roboto', sans-serif;
-       justify-content: center;
-        background-color: #FFBE5C;
-        height:54px;
-        margin:1rem 0;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        padding: 12px 16px;
-        z-index: 1;
-    }
+.arrow {
+    display: flex;
+    flex: 1;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    background-color: #FFBE5C;
+    height:1em;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    margin: auto;
+
+}
+.findroombutton {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    height: 3em;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
