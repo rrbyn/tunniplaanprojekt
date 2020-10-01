@@ -1,3 +1,4 @@
+font-family: 'Roboto', sans-serif;
 .container{
 display: flex;
 flex: 1;
@@ -17,6 +18,13 @@ padding: 2rem;
     border-style: solid;
  border-color: slategray;
  padding: 2rem;
+ }
+ .lunch{
+     display: flex;
+     flex: 1;
+     border-style: solid;
+     border-color: slategray;
+     padding: 1rem;
  }
  .thirdlesson{
     display:flex;
@@ -56,45 +64,97 @@ padding: 2rem;
     flex: 1;
     border-style:solid;
     border-color: slategray;
+    padding:0.7rem;
+    margin: 0.5rem;
+    border-radius:10px;
 }
 .tuesday{
     display: flex;
     flex: 1;
     border-style:solid;
     border-color: slategray;
+    padding:0.7rem;
+    margin: 0.5rem;
+    border-radius:10px;
 }
 .wednesday{
     display: flex;
     flex: 1;
     border-style:solid;
     border-color: slategray;
+    padding:0.7rem;
+    margin: 0.5rem;
+    border-radius:10px;
 }
 .thursday{
     display: flex;
     flex: 1;
     border-style:solid;
     border-color: slategray;
+    padding:0.7rem;
+    margin: 0.5rem;
+    border-radius:10px;
 }
 .friday{
     display: flex;
     flex: 1;
     border-style:solid;
     border-color: slategray;
+    padding:0.7rem;
+    margin: 0.5rem;
+    border-radius:10px;
 }
 .saturday{
     display: flex;
     flex: 1;
     border-style:solid;
     border-color: slategray;
+    padding:0.7rem;
+    margin: 0.5rem;
+border-radius:10px;
 }
 .sunday{
     display: flex;
     flex: 1;
     border-style:solid;
     border-color: slategray;
+    padding:0.7rem;
+    margin: 0.5rem;
+    border-radius:10px;
 }
 .filter{
     display: flex;
     flex: 1;
+    text-align-last: center;
+    font-family: 'Roboto', sans-serif;
+    font:bold;
+}
+.dropdown{
+    display: flex;
+    flex: 1;
+   justify-content: center;
+    background-color: orange;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+.tunniplaan{
+    display: flex;
+    flex: 1;
     justify-content: center;
+    background: rgba(190, 228, 255, 0.2);
+    font-family: 'Roboto', sans-serif;
+}
+.freeroom{
+    display: flex;
+    flex: 1;
+    background:orange;
+    margin: 4rem 6rem;
+    font-family: 'Roboto', sans-serif;
+align-items: center;
+justify-content: center;
+    width: 153px;
+    height: 44px;
+    border-radius: 10px;
 }
