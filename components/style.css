@@ -1,0 +1,49 @@
+.tund{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(190, 228, 255, 0.2);
+}
+.leftside{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+.leftside span{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+}
+.rightside{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.rightside span{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+}
+.side{
+    width: 33%;
+}
+.pealkiri{
+    font-size: 23px;
+    line-height: 27px;
+}
+.tunninr{
+    font-size: 14px;
+    line-height: 16px;
+}
+.aeg{
+    font-size: 12px;
+    line-height: 14px;
+}
+.ruum{
+    font-size: 14px;
+    line-height: 16px;
+}
+.op{
+    font-size: 14px;
+    line-height: 16px;
+}
