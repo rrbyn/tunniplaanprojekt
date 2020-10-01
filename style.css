@@ -93,3 +93,8 @@ padding: 2rem;
     border-style:solid;
     border-color: slategray;
 }
+.filter{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
