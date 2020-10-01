@@ -87,6 +87,7 @@ padding: auto;
     padding:0.7rem;
     margin: 0.5rem;
     border-radius:10px;
+    background-color: #BEE4FF;
 }
 .thursday{
     display: flex;
@@ -96,6 +97,7 @@ padding: auto;
     padding:0.7rem;
     margin: 0.5rem;
     border-radius:10px;
+    background-color: #FFBE5C;
 }
 .friday{
     display: flex;
@@ -105,6 +107,7 @@ padding: auto;
     padding:0.7rem;
     margin: 0.5rem;
     border-radius:10px;
+    background-color: #BEE4FF;
 }
 .saturday{
     display: flex;
