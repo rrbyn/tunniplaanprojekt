@@ -1,0 +1,95 @@
+.container{
+display: flex;
+flex: 1;
+flex-direction: column;
+padding: auto;
+}
+.firstlesson{
+   display:flex;
+   flex: 1;
+   border-style: solid;
+border-color: slategray;
+padding: 2rem;
+}
+.secondlesson{
+    display:flex;
+    flex: 1;
+    border-style: solid;
+ border-color: slategray;
+ padding: 2rem;
+ }
+ .thirdlesson{
+    display:flex;
+    flex: 1;
+    border-style: solid;
+ border-color: slategray;
+ padding: 2rem;
+ }
+ .fourthlesson{
+    display:flex;
+    flex: 1;
+    border-style: solid;
+ border-color: slategray;
+ padding: 2rem;
+ }
+ .fifthlesson{
+    display:flex;
+    flex: 1;
+    border-style: solid;
+ border-color: slategray;
+ padding: 2rem;
+ }
+ .sixthlesson{
+    display:flex;
+    flex: 1;
+    border-style: solid;
+ border-color: slategray;
+ padding: 2rem;
+ }
+.days{
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+}
+.monday{
+    display: flex;
+    flex: 1;
+    border-style:solid;
+    border-color: slategray;
+}
+.tuesday{
+    display: flex;
+    flex: 1;
+    border-style:solid;
+    border-color: slategray;
+}
+.wednesday{
+    display: flex;
+    flex: 1;
+    border-style:solid;
+    border-color: slategray;
+}
+.thursday{
+    display: flex;
+    flex: 1;
+    border-style:solid;
+    border-color: slategray;
+}
+.friday{
+    display: flex;
+    flex: 1;
+    border-style:solid;
+    border-color: slategray;
+}
+.saturday{
+    display: flex;
+    flex: 1;
+    border-style:solid;
+    border-color: slategray;
+}
+.sunday{
+    display: flex;
+    flex: 1;
+    border-style:solid;
+    border-color: slategray;
+}
