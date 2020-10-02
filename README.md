@@ -16,4 +16,6 @@ Analüüsida, kavandada ja prototüüpida uus tunniplaan.
 ## Projekti disain ja prototüüpimine
 [Figma](https://www.figma.com/files/project/15804291/Tunniplaaniprojekt---Tiim-3)
 
-## 
+## Projekt
+[Tutvu projektiga:](https://tak19kukk.itmajakas.ee/tunniplaanprojekt/index.html)<br/>
+Uus tunniplaan peab võrreldes tahvel.edu.ee versiooniga olema mugavam kasutada, info peab olema arusaadavam ning loetavam ja säilitama oma funktsionaalsuse erinevates seadmetes kasutamisel (telefon, tahvel, arvutiekraan).
