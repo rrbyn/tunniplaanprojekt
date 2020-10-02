@@ -1,0 +1,211 @@
+.container{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: auto;
+    }
+    .tund{
+        display: flex;
+        justify-content: space-between;
+        background-color: rgba(190, 228, 255, 0.2);
+        margin: 1rem;
+        padding: 1%;
+    }
+    .leftside{
+        display: flex;
+        flex-direction: column;
+        width: 33%;
+    }
+    .leftside span{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+    }
+    .rightside{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .rightside span{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        text-align: center;
+    }
+    .side{
+        width: 33%;
+    }
+    .pealkiri{
+        font-size: 23px;
+        line-height: 27px;
+    }
+    .tunninr{
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .aeg{
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .ruum{
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .op{
+        font-size: 14px;
+        line-height: 16px;
+    }
+    
+    .days{
+        display: flex;
+        flex: 1;
+        justify-content: space-between;
+        margin: auto;
+    }
+    .monday{
+        display: flex;
+        flex: 1;
+        border-style:solid;
+        border-color: #C6C6C6;
+        padding:0.7rem;
+        border-radius:3px;
+        border-width: 0;
+        justify-content: center;
+        align-content: center;
+        background-color: #C4C4C4;
+        margin: 0.1em;
+    }
+    .tuesday{
+        display: flex;
+        flex: 1;
+        border-style:solid;
+        border-color: #C6C6C6;
+        padding:0.7rem;
+        border-radius:3px;
+        border-width: 0;
+        justify-content: center;
+        align-content: center;
+        background-color: #C4C4C4;
+        margin: 0.1em;
+    }
+    .wednesday{
+        display: flex;
+        flex: 1;
+        border-style:solid;
+        border-color: #FFBE5C;
+        padding:0.7rem;
+        border-radius:3px;
+        border-width: 0;
+        background-color: #FFBE5C;
+        justify-content: center;
+        align-content: center;
+        margin: 0.1em;
+    }
+    .thursday{
+        display: flex;
+        flex: 1;
+        border-style:solid;
+        border-color: #BEE4FF;
+        padding:0.7rem;
+        border-radius:3px;
+        border-width: 0;
+        background-color: #BEE4FF;
+        justify-content: center;
+        align-content: center;
+        margin: 0.1em;
+    }
+    .friday{
+        display: flex;
+        flex: 1;
+        border-style:solid;
+        border-color: #C6C6C6;
+        padding:0.7rem;
+        border-radius:3px;
+        border-width: 0;
+        background-color: #BEE4FF;
+        justify-content: center;
+        align-content: center;
+        margin: 0.1em;
+    }
+    .saturday{
+        display: flex;
+        flex: 1;
+        border-style:solid;
+        border-color: #C6C6C6;
+        padding:0.7rem;
+        border-radius:3px;
+        border-width: 0;
+        justify-content: center;
+        align-content: center;
+        background-color: #C4C4C4;
+        margin: 0.1em;
+    }
+    .sunday{
+        display: flex;
+        flex: 1;
+        border-style:solid;
+        border-color: #C6C6C6;
+        padding:0.7rem;
+        border-radius:3px;
+        border-width: 0;
+        justify-content: center;
+        align-content: center;
+        background-color: #C4C4C4;
+        margin: 0.1em;
+    }
+    .filter{
+        display: flex;
+       flex: 1;
+        text-align-last: center;
+        font-family: 'Roboto', sans-serif;
+       justify-content: center;
+        background-color: #FFBE5C;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        padding: 12px 16px;
+        z-index: 1;
+    }
+    .tunniplaan{
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        background: rgba(190, 228, 255, 0.2);
+        font-family: 'Roboto', sans-serif;
+    }
+    .freeroom{
+        display: flex;
+        flex: 1;
+        background: #FFBE5C;
+        font-family: 'Roboto', sans-serif;
+        align-items: center;
+        justify-content: center;
+        height: 3em;
+        border-radius: 10px;
+        margin: auto;
+    }
+    .lunch{
+        display: flex;
+        justify-content: space-between;
+        background-color: rgba(194, 194, 194, 0.35);
+        margin: 1rem;
+        align-items: center;
+        padding: 1%;
+    }
+    .week {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        font-family: 'Roboto', sans-serif;
+        margin: 2%;
+    }
+    .vabatund{
+        display: flex;
+        justify-content: space-between;
+        background-color: rgba(194, 194, 194, 0.35);
+        margin: 1rem;
+        padding: 1%;
+    }
+    a, a:hover, a:focus, a:active {
+        text-decoration: none;
+        color: inherit;
+   }
