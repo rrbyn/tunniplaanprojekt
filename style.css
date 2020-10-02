@@ -59,99 +59,99 @@ padding: auto;
 .days{
     display: flex;
     flex: 1;
-    justify-content: flex-start;
+    justify-content: space-between;
     margin: auto;
 }
 .monday{
     display: flex;
     flex: 1;
     border-style:solid;
-    border-color: slategray;
+    border-color: #C6C6C6;
     padding:0.7rem;
-    margin: 0.5rem;
-    border-radius:10px;
+    border-radius:3px;
     border-width: 0;
     justify-content: center;
     align-content: center;
     background-color: #C4C4C4;
+    margin: 0.1em;
 }
 .tuesday{
     display: flex;
     flex: 1;
     border-style:solid;
-    border-color: slategray;
+    border-color: #C6C6C6;
     padding:0.7rem;
-    margin: 0.5rem;
-    border-radius:10px;
+    border-radius:3px;
     border-width: 0;
     justify-content: center;
     align-content: center;
     background-color: #C4C4C4;
+    margin: 0.1em;
 }
 .wednesday{
     display: flex;
     flex: 1;
     border-style:solid;
-    border-color: slategray;
+    border-color: #C6C6C6;
     padding:0.7rem;
-    margin: 0.5rem;
-    border-radius:10px;
+    border-radius:3px;
     border-width: 0;
     background-color: #BEE4FF;
     justify-content: center;
     align-content: center;
+    margin: 0.1em;
 }
 .thursday{
     display: flex;
     flex: 1;
     border-style:solid;
-    border-color: slategray;
+    border-color: #FFBE5C;
     padding:0.7rem;
-    margin: 0.5rem;
-    border-radius:10px;
+    border-radius:3px;
     border-width: 0;
     background-color: #FFBE5C;
     justify-content: center;
     align-content: center;
+    margin: 0.1em;
 }
 .friday{
     display: flex;
     flex: 1;
     border-style:solid;
-    border-color: slategray;
+    border-color: #C6C6C6;
     padding:0.7rem;
-    margin: 0.5rem;
-    border-radius:10px;
+    border-radius:3px;
     border-width: 0;
     background-color: #BEE4FF;
     justify-content: center;
     align-content: center;
+    margin: 0.1em;
 }
 .saturday{
     display: flex;
     flex: 1;
     border-style:solid;
-    border-color: slategray;
+    border-color: #C6C6C6;
     padding:0.7rem;
-    margin: 0.5rem;
-    border-radius:10px;
+    border-radius:3px;
     border-width: 0;
     justify-content: center;
     align-content: center;
     background-color: #C4C4C4;
+    margin: 0.1em;
 }
 .sunday{
     display: flex;
     flex: 1;
     border-style:solid;
-    border-color: slategray;
+    border-color: #C6C6C6;
     padding:0.7rem;
-    margin: 0.5rem;
-    border-radius:10px;
+    border-radius:3px;
     border-width: 0;
     justify-content: center;
     align-content: center;
     background-color: #C4C4C4;
+    margin: 0.1em;
 }
 .filter{
     display: flex;
