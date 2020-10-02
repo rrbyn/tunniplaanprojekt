@@ -80,7 +80,8 @@
 .dropdown {
     display: flex;
     flex: 1;
-    justify-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
     margin: 10px 0;
     padding: 1%;
     background: rgba(190, 228, 255, 0.2);
@@ -97,8 +98,7 @@
     font-size: 1em;
     height: 3em;
     border-radius: 10px;
-    padding: 1%;
-    margin: auto;
+    margin-bottom: 0.5rem;
 }
 .arrow {
     display: flex;
@@ -127,4 +127,11 @@
 }
 h3 {
     font-size: 1em;
+}
+.filterimg {
+    transform: scaleY(-1);
+    width: 1.25rem;
+    height: 0.75rem;
+    margin-left: 0.5rem;
+    margin-top: 0.15rem;
 }
