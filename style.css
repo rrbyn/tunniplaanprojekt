@@ -28,15 +28,20 @@ padding: auto;
     display: flex;
     flex-direction: column;
     text-align: center;
+    flex-grow: 1;
+    flex-basis: auto;
+    white-space: nowrap;
 }
 .rightside span{
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     text-align: center;
+    
 }
 .side{
-    width: 33%;
+    flex-basis: 33%;
+    flex-shrink: 1;
 }
 .pealkiri{
     font-size: 23px;

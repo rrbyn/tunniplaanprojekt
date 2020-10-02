@@ -25,6 +25,8 @@ padding: auto;
     display: flex;
     flex-direction: column;
     text-align: center;
+    white-space: nowrap;
+ 
 }
 .rightside span{
     font-family: Roboto;
