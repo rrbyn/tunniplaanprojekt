@@ -196,6 +196,7 @@
         align-content: center;
         justify-content: center;
         font-family: 'Roboto', sans-serif;
+        text-align: center;
         margin: 2%;
     }
     .vabatund{
@@ -209,3 +210,10 @@
         text-decoration: none;
         color: inherit;
    }
+   .chevron{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
