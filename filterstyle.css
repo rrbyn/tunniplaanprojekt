@@ -1,15 +1,10 @@
-.tunniplaan {
+.tunniplaan{
     display: flex;
     flex: 1;
     justify-content: center;
     background: rgba(190, 228, 255, 0.2);
     font-family: 'Roboto', sans-serif;
-    font-size: 1em;
-    font-weight: bold;
-    height: 2em;
-    margin: auto;
-    padding: 1%;
-
+}
 }
 .lunch {
     display: flex;
