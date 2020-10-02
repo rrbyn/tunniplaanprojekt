@@ -1,5 +1,6 @@
 body{
     margin:0;
+    background-color: #232323;
 }
 
 .container{
@@ -11,7 +12,7 @@ justify-content: space-between;
 .tund{
     display: flex;
     justify-content: space-between;
-    background-color: rgba(190, 228, 255, 0.2);
+    background-color: #242631;
     margin: 1rem;
     padding: 1%;
 }
@@ -19,11 +20,13 @@ justify-content: space-between;
     display: flex;
     flex-direction: column;
     width: 33%;
+    color: whitesmoke;
 }
 .leftside span{
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
+    color: whitesmoke;
 }
 .rightside{
     display: flex;
@@ -32,13 +35,15 @@ justify-content: space-between;
     flex-grow: 1;
     flex-basis: auto;
     white-space: nowrap;
+    color: whitesmoke;
 }
 .rightside span{
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     text-align: center;
-    
+    color: whitesmoke;
+
 }
 .side{
     flex-basis: 33%;
@@ -47,14 +52,17 @@ justify-content: space-between;
 .pealkiri{
     font-size: 23px;
     line-height: 27px;
+    color: whitesmoke;
 }
 .tunninr{
     font-size: 14px;
     line-height: 16px;
+    color: whitesmoke;
 }
 .aeg{
     font-size: 12px;
     line-height: 14px;
+    color: whitesmoke;
 }
 .ruum{
     font-size: 14px;
@@ -72,6 +80,7 @@ justify-content: space-between;
     margin-left: 1rem;
     margin-right: 1rem;
     padding: 1%;
+    color: whitesmoke;
 }
 .days button:not-last{
     margin-right: 1vw;
@@ -87,8 +96,9 @@ justify-content: space-between;
     border-width: 0;
     justify-content: center;
     align-content: center;
-    background-color: #C4C4C4;
+    background-color: #393939;
     margin: 0.1em;
+    color: whitesmoke;
 }
 .tuesday{
     display: flex;
@@ -100,8 +110,9 @@ justify-content: space-between;
     border-width: 0;
     justify-content: center;
     align-content: center;
-    background-color: #C4C4C4;
+    background-color: #393939;
     margin: 0.1em;
+    color: whitesmoke;
 }
 .wednesday{
     display: flex;
@@ -111,10 +122,11 @@ justify-content: space-between;
     padding:0.7rem;
     border-radius:3px;
     border-width: 0;
-    background-color: #BEE4FF;
+    background-color: #242631;
     justify-content: center;
     align-content: center;
     margin: 0.1em;
+    color: whitesmoke;
 }
 .thursday{
     display: flex;
@@ -124,10 +136,11 @@ justify-content: space-between;
     padding:0.7rem;
     border-radius:3px;
     border-width: 0;
-    background-color: #FFBE5C;
+    background-color: #383022;
     justify-content: center;
     align-content: center;
     margin: 0.1em;
+    color: whitesmoke;
 }
 .friday{
     display: flex;
@@ -137,10 +150,11 @@ justify-content: space-between;
     padding:0.7rem;
     border-radius:3px;
     border-width: 0;
-    background-color: #BEE4FF;
+    background-color: #242631;
     justify-content: center;
     align-content: center;
     margin: 0.1em;
+    color: whitesmoke;
 }
 .saturday{
     display: flex;
@@ -152,8 +166,9 @@ justify-content: space-between;
     border-width: 0;
     justify-content: center;
     align-content: center;
-    background-color: #C4C4C4;
+    background-color: #393939;
     margin: 0.1em;
+    color: whitesmoke;
 }
 .sunday{
     display: flex;
@@ -165,8 +180,9 @@ justify-content: space-between;
     border-width: 0;
     justify-content: center;
     align-content: center;
-    background-color: #C4C4C4;
+    background-color: #393939;
     margin: 0.1em;
+    color: whitesmoke;
 }
 .filter{
     display: flex;
@@ -174,24 +190,24 @@ justify-content: space-between;
     text-align-last: center;
     font-family: 'Roboto', sans-serif;
    justify-content: center;
-    background-color: #FFBE5C;
+    background-color: #383022;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 12px 16px;
     z-index: 1;
-    
+    color: whitesmoke;
 }
 .tunniplaan{
     display: flex;
     flex: 1;
     justify-content: center;
-    background: rgba(190, 228, 255, 0.2);
     font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
 }
 .freeroom{
     display: flex;
     flex: 1;
-    background: #FFBE5C;
+    background: #383022;
     font-family: 'Roboto', sans-serif;
     align-items: center;
     justify-content: center;
@@ -199,11 +215,12 @@ justify-content: space-between;
     border-radius: 10px;
     margin-left: 1rem;
     margin-right: 1rem;
+    color: whitesmoke;
 }
 .lunch{
     display: flex;
     justify-content: space-between;
-    background-color: rgba(194, 194, 194, 0.35);
+    background-color: #393939;
     margin: 1rem;
     align-items: center;
     padding: 1%;
@@ -216,11 +233,12 @@ justify-content: space-between;
     text-align: center;
     margin: 2%;
     padding-top: 0.5rem;
+    color: whitesmoke;
 }
 .vabatund{
     display: flex;
     justify-content: space-between;
-    background-color: rgba(194, 194, 194, 0.35);
+    background-color: #393939;
     margin: 1rem;
     padding: 1%;
 }
@@ -229,7 +247,6 @@ justify-content: space-between;
     font-size: 2em;
     margin-left: 5%;
     margin-right: 5%;
-
 }
 .filterimg {
     transform: scaleY(-1);
