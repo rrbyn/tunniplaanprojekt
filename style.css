@@ -1,10 +1,11 @@
-
+body{
+    margin:0;
+}
 
 .container{
 display: flex;
 flex: 1;
-flex-direction: column;
-padding: auto;
+justify-content: space-between;
 
 }
 .tund{
@@ -68,8 +69,14 @@ padding: auto;
     display: flex;
     flex: 1;
     justify-content: space-between;
-    margin: auto;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 1%;
 }
+.days button:not-last{
+    margin-right: 1vw;
+}
+
 .monday{
     display: flex;
     flex: 1;
@@ -190,7 +197,8 @@ padding: auto;
     justify-content: center;
     height: 3em;
     border-radius: 10px;
-    margin: auto;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 .lunch{
     display: flex;

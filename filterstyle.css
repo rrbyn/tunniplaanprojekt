@@ -1,3 +1,6 @@
+body{
+    margin: 0;
+}
 .tunniplaan{
     display: flex;
     flex: 1;
@@ -86,6 +89,8 @@
     padding: 1%;
     background: rgba(190, 228, 255, 0.2);
     font-family: 'Roboto', sans-serif;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .filter {
@@ -99,6 +104,8 @@
     height: 3em;
     border-radius: 10px;
     margin-bottom: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 .arrow {
     display: flex;
@@ -118,7 +125,8 @@
     justify-self: center;
     align-self: center;
     height: 3em;
-    margin: auto;
+    margin-left: 1rem;
+    margin-right: 1rem;
     font-family: 'Roboto', sans-serif;
 }
 #nool {
