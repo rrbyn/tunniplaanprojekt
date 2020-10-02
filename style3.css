@@ -213,3 +213,10 @@ padding: auto;
     margin-right: 5%;
 
 }
+.filterimg {
+    transform: scaleY(-1);
+    width: 1.25rem;
+    height: 0.75rem;
+    margin-left: 0.5rem;
+    margin-top: 0.15rem;
+}
